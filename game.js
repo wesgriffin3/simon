@@ -30,7 +30,7 @@ function checkAnswer(currentLevel) {
       }, 1000);
     }
   } else {
-    playSound("wrong");
+    playAudio("wrong");
     $("body").addClass("game-over");
     $("#level-title").text("Game Over, Press Any Key to Restart");
 
